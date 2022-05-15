@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+<html>
 <head>
-<title> TOP 10 PHILIPPINE DESTINATION </title>
+<title> Top 10 Philippine Destination </title>
 <style>
-h1 {
-    font-family: Courier;
-    text-align: center;
+h1{ 
+	font-family: Courier;
+	text-align: center;
 }
-h2 {
-    font-family: Orator Std;
-    text-align: center;
+
+h2{ 
+	font-family: Orator Std;
+	text-align: center;
 }
 
 ul {
@@ -24,26 +26,32 @@ li {
 }
 
 li a, .dropbtn {
-    font-family: Orator Std;
+	font-family: Orator Std;
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: note;
-    width: 279.7px;
+    text-decoration: none;
+	width: 279.7px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
 }
 
 li.dropdown {
     display: inline-block;
+
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	
 }
 
 .dropdown-content a {
@@ -54,14 +62,14 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 div{
-    font-family: Tahoma;
+	font-family: Tahoma;
 }
 
 .container {
@@ -70,53 +78,54 @@ div{
 }
 
 .image {
-    opacity: 2;
-    display: block;
-    backface-visibility: hidden;
+  opacity: 2;
+  display: block;
+  backface-visibility: hidden;
+ 
 }
 
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
 }
 
 .container:hover .image {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .container:hover .middle {
-    opacity: 1;
+  opacity: 1;
 }
 
 .text {
-    color: black;
-    font-family: Orator Std;
-    font-size: 150%;
-    padding: 15px;
+  color: black;
+  font-family: Orator Std;
+  font-size: 150%;
+  padding: 15px 15px;
 }
 
 p{
-    font-family: Courier;
-    font-size: 100%;
-    align-content:  paragraph;
+	font-family: Courier;
+	font-size: 100%;
+	align: paragraph;
 }
 
 h4{
-    font-family: Orator Std;
-}
+	font-family: Orator Std;
+
 
 </style>
 </head>
 <body>
 
-<h1> TOP 10 PHILIPPINE DESTINATION </h1>
+<h1> Top 10 Philippine Destination </h1>
 <br>
-
 <ul>
     <li class="dropdown"></li>
     <a href="javascript:void(0)" class="dropbtn">Places</a>
@@ -132,22 +141,22 @@ h4{
     <a href="#5">Sagada</a>  
     <a href="#5">Vigan</a>  
     </div>
-   
-    <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Location</a>
+   <li class="dropdown">
+	    <a href="javascript:void(0)" class="dropbtn">Location</a>
     <div class="dropdown-content">
-        <a href="https://www.google.com.ph/maps?source=tldso">Google Maps</a>
+      <a href="https://www.google.com.ph/maps?source=tldso">Google Maps</a>
     </div>
-    <li class="dropdown">
-        <a href="https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines" class="dropbtn">Information</a>
-        <div class="dropdown-content">
-    </div>
-  
-    <li class="dropdown">
-        <a href="#bot" class="dropbtn">About</a>
+	
+	<li class="dropdown">
+	    <a href="https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines" class="dropbtn">Information</a>
     <div class="dropdown-content">
-    </div>    
-    </li>
+    </div>
+	
+	<li class="dropdown">
+	    <a href="#bot" class="dropbtn">About</a>
+    <div class="dropdown-content">
+    </div>
+  </li>
 </ul>
 
 <br>
@@ -163,11 +172,6 @@ h4{
 <a href="#8"><img src="/FinalExam/Images/cebu.jpeg" alt="Cebu" style="width:250px; height:250px;"></a>
 <a href="#9"><img src="/FinalExam/Images/sagada.jpeg" alt="Sagada" style="width:250px; height:250px;"></a>
 <a href="#10"><img src="/FinalExam/Images/vigan.jpeg" alt="Vigan" style="width:250px; height:250px;"></a>
-
-<br>
-<br>
-<br>
-
 <hr size="4" ; color="black" ; width="95%">
 
 <h2 id="1"> Boracay Island Aklan </h2>
@@ -190,19 +194,19 @@ h4{
 < center>
 <h4><u>Location</u></h4>
 <img src="/FinalExam/Images/borac.jpeg" alt="Trolltunga" width="400" height="300">
-< center>
+</center>
 
 <br><br>
 
-<a gref="#top"><p><u>Back on Top</u></p></a>
+<a href="#top"><p><u>Back on Top</u></p></a>
 
 <br>
 
 </div>
 
 <br>
-
 <hr size="4" ; color="black" ; width="95%">
+
 <h2 id="2"> Siargao Island </h2>
 <div class="img">
     <a href="https://en.wikipedia.org/wiki/Siargao">
@@ -211,22 +215,21 @@ h4{
     </a>
 </div>
 <br>
-<p>
-    Siargao is a tear-drop shaped island in the Philippine Sea situated 196 kilometers southeast of Tacloban. 
+<p>Siargao is a tear-drop shaped island in the Philippine Sea situated 196 kilometers southeast of Tacloban. 
     It has a land area of approximately 437 square kilometres. The east coast is relatively straight with one deep inlet,
     Port Pilar.</p>
-</div>
+<div>
 
-    < center >
-    <h4><u>Location</u></h4>
-    <img src="/FinalExam/Images/island.jpeg" alt="TTrolltunga " width="400" height="300">
-    </center>
+<center>
+<h4><u>Location</u></h4>
+<img src="/FinalExam/Images/island.jpeg" alt="Siargao" width="400" height="300">
+</center>
 <br>
 
 <br><br>
 
 <div class="pa">
-<a href="#top"></p><u> Back on Top</u></p></a>
+<a href="#top"><p><u>Back on Top</u></p></a>
 </div>
 
 </div>
@@ -234,30 +237,28 @@ h4{
 <br>
 
 <hr size="4" ; color="black" ; width="95%">
-
-<h2 id="3">Pagudpud, Ilocos Norte </h2>
+<h2 id="3"> Pagudpud, Ilocos Norte </h2>
 <div class="img">
     <a href="https://en.wikipedia.org/wiki/Pagudpud">
     <img src="/FinalExam/Images/pagud.jpeg" alt="Norte" width="600" height="400">
     <img src="/FinalExam/Images/patapat.jpeg" alt="Norte" width="600" height="400">
     </a>
-    </div>
-    <br>
-
-    <p>
-        Pagudpud used to be part of the municipality of Bangui but On July 5, 1954, it was made into a separate town. On July 6, 2018,
+ </div>
+ <br>
+	
+	 <p>Pagudpud used to be part of the municipality of Bangui but On July 5, 1954, it was made into a separate town. On July 6, 2018,
          the Sandiganbayan sentenced the former mayor, Reynolan Sales to 12 – 17 years imprisonment for the 1999 killing of Rafael Benemerito,
          his political rival who is also a former mayor of the town.</p>
     <div>
-< center>
+<center>
 <h4><u>Location</u></h4>
-<img src="/FinalExam/Images/norte.jpeg" alt="Trolltunga" width="400"  height="300">
+<img src="../_images/Sia1.jpg" alt="Trolltunga Norway" width="400" height="300">
 </center>
 <br>
 
 <br><br><br><br>
 
-<div class="pa"></div>
+<div class="pa">
 <a href="#top"><p><u>Back on Top</u></p></a>
 </div>
 
@@ -268,7 +269,6 @@ h4{
 <hr size="4" ; color="black" ; width="95%">
 
 <h2 id="4"> Baguio City, Benguet </h2>
-
 <div class="img">
     <a href="https://en.wikipedia.org/wiki/Baguio">
     <img src="/FinalExam/Images/bag.jpeg" alt="Mountain" width="600" height="400" class>
@@ -276,33 +276,27 @@ h4{
     </a>
 </div>
 <br>
-
-<p>
-    Baguio, on the Philippines Luzon island, is a mountain town of universities and resorts. Called the “City of Pines,”
+<p>Baguio, on the Philippines Luzon island, is a mountain town of universities and resorts. Called the “City of Pines,”
      its particularly popular in summer due to unusually cooler weather. At its center is Burnham Park, with gardens and a lake. Nearby, 
      Baguio Cathedral,completed in 1936, has a rose-hued exterior. The main thoroughfare is Session Road, lined with shops,
-    restaurants and entertainment options.
-</p>
-
+    restaurants and entertainment options.</p>
 <div>
 
 <center>
-    <h4><u> Location </u></h4>
-    <img src="/FinalExam/Images/colorhouse.jpeg" alt="Trolltunga" width="400" height="300">
+<h4><u>Location</u></h4>
+<img src="/FinalExam/Images/colorhouse.jpeg" alt="Trolltunga" width="400" height="300">
+</center>
+<br>
 
-  </center>
-  <br>
+<br><br>
 
-  <br><br>
+</div>
 
-  </div>
-
-  <div class="pa">
+<div class="pa">
 <a href="#top"><p><u>Back on Top</u></p></a>
-  </div>
+</div>
 
 <hr size="4" ; color="black" ; width="95%">
-
 <h2 id="5"> Batangas </h2>
 <div class="img">
 <a href="https://en.wikipedia.org/wiki/Batangas">
@@ -310,13 +304,13 @@ h4{
 </a>
 </div>
 <br>
-<p>
-    Batangas, officially the Province of Batangas, is a province in the Philippines located in the Calabarzon region on Luzon. 
+<p>Batangas, officially the Province of Batangas, is a province in the Philippines located in the Calabarzon region on Luzon. 
     Its capital is the city of Batangas, and is bordered by the provinces of Cavite and Laguna to the north, and Quezon to the east.</p>
 <div>
 
 <center>
-    <h4><u> Location </u></h4>
+<h4><u>Location</u></h4>
+<img src="/FinalExam/Images/bat.jpeg" alt="Batangas" width="600" height="400">
 </center>
 <br>
 
@@ -325,13 +319,12 @@ h4{
 </div>
 
 <div class="pa">
-    <a href="#top"><p><u> Back on Top </u></p></a>
+<a href="#top"><p><u>Back on Top</u></p></a>
 </div>
 
 <br>
 
 <hr size="4" ; color="black" ; width="95%">
-
 <h2 id="6"> Coron, Palawan </h2>
 <div class="img">
     <a href="https://en.wikipedia.org/wiki/Coron_Island">
@@ -340,39 +333,37 @@ h4{
     </a>
 </div>
 <br>
-<p>
-    Coron, officially the Municipality of Coron, is a 1st class municipality in the province of Palawan, Philippines. 
+<p>Coron, officially the Municipality of Coron, is a 1st class municipality in the province of Palawan, Philippines. 
     According to the 2020 census, it has a population of 65,855 people.</p>
 <div>
-
 <center>
-    <h4><u>Location</u></h4>
-    <img src="/FinalExam/Images/coron1.jpeg" alt="Beach" width="600" height="400">
-</center>
+<h4><u>Location</u></h4>
+  <img src="/FinalExam/Images/coron1.jpeg" alt="Beach" width="600" height="400">
+  </center>
 <br>
 
 </div>
-
+<div class="pa">
+<a href="#top"><p><u>Back on Top</u></p></a>
+</div>
 <br>
 
 <hr size="4" ; color="black" ; width="95%">
-
-<h2 id="7"> Hundred Islands, Alaminos Pangasinan</h2>
+<h2 id="7"> Hundred Islands, Alaminos Pangasinan </h2>
 <div class="img">
-    <a href="https://en.wikipedia.org/wiki/Hundred_Islands_National_Park">
+<a href="https://en.wikipedia.org/wiki/Hundred_Islands_National_Park">
         <img src="/FinalExam/Images/alaminos.jpeg" alt="Beach" width="600" height="400">
         <img src="/FinalExam/Images/hundred.jpeg" alt="Beach" width="600" height="400">
     </a>
 </div>
 <br>
-<p>
-    The national park was created by Presidential Proclamation No. 667, covering an area of 16.76 square kilometres (6.47 sq mi) 
+<p>The national park was created by Presidential Proclamation No. 667, covering an area of 16.76 square kilometres (6.47 sq mi) 
     and signed by President Manuel L. Quezon on January 18, 1940, for the benefit and enjoyment of the people of the Philippines and
      known as the Hundred Islands National Park (HINP). The Republic Act No. 3655 signed on June 22, 1962, created the 
      Hundred Islands Conservation and Development Authority (HICDA), for the conservation, development and management of HINP. The park 
     including Lucap Bay was transferred from HICDA to the Philippine Tourism Authority (PTA) by virtue of Section 35 of Presidential Decree No. 564.</p>
-    <div>
-        <br>
+<div>
+<br>
 
 <center>
 <h4><u>Location</u></h4>
@@ -381,11 +372,14 @@ h4{
 <br>
 
 <br><br>
+
 </div>
 
 <div class="pa">
-    <a href="#top"><p><u>Back on Top </u></p></a>
+<a href="#top"><p><u>Back on Top</u></p></a>
 </div>
+
+<br>
 
 <br>
 
@@ -393,7 +387,7 @@ h4{
 
 <h2 id="8"> Cebu City</h2>
 <div class="img">
-    <a href="https://en.wikipedia.org/wiki/Hundred_Islands_National_Park">
+<a href="https://en.wikipedia.org/wiki/Hundred_Islands_National_Park">
         <img src="/FinalExam/Images/ceb.jpeg" alt="Beach" width="600" height="400">
         <img src="/FinalExam/Images/cebu1.jpeg" alt="Beach" width="600" height="400">
     </a>
@@ -405,13 +399,14 @@ h4{
      Fort San Pedro. Tops, an observation deck on Mt. Busay, has sweeping views over the city.</p>
 <div>
 
-    <br>
+<br>
 
 <center>
-    <h4><u>Location</u></h4>
-    <img src="/FinalExam/Images/cebucity.jpeg" alt="Beach" width="400" height="300">
+<h4><u>Location</u></h4>
+<img src="/FinalExam/Images/cebucity.jpeg" alt="Cebu" width="400" height="300">
 </center>
 <br>
+
 <br>
 
 </div>
@@ -421,6 +416,7 @@ h4{
 </div>
 
 <br>
+
 <hr size="4" ; color="black" ; width="95%">
 
 <h2 id="9"> Sagada, Mountain Province</h2>
@@ -436,15 +432,13 @@ h4{
     while centuries-old coffins are stacked in burial sites like Lumiang Cave.
     The nearby Sumaguing Cave has unusual limestone formations. To the north, Bomod-ok Falls has a natural swimming pool.
     Rice terraces are carved into the area's surrounding mountainsides.</p>
-    <div>
-
-<br>
-
+<div>
 <center>
-    <h4><u>Location</u></h4>
-    <img src="/FinalExam/Images/sagad.jpeg" alt="Mount" width="400" height="300">
-</center>
+<h4><u>Location</u></h4>
+ <img src="/FinalExam/Images/sagad.jpeg" alt="Sagada Mount" width="400" height="300">
+ </center>
 <br>
+
 <br>
 
 </div>
@@ -454,11 +448,11 @@ h4{
 </div>
 
 <br>
-<hr size="4" ; color="black" ; width="95%">
 
-<h2 id="9"> Vigan City, Ilocos Sur</h2>
+<hr size="4" ; color="black" ; width="95%">
+<h2 id="10"> Vigan City, Ilocos Sur </h2>
 <div class="img">
-    <a href="https://en.wikipedia.org/wiki/Vigan">
+<a href="https://en.wikipedia.org/wiki/Vigan">
         <img src="/FinalExam/Images/cathedral.jpeg" alt="Beach" width="600" height="400">
         <img src="/FinalExam/Images/bantaytower.jpeg" alt="Beach" width="600" height="400">
     </a>
@@ -467,42 +461,38 @@ h4{
 <p>Vigan is a city in the Philippines, on the west coast of Luzon island. It's known for its preserved Spanish colonial and Asian architecture.
      Calle Crisologo dominates the Mestizo district, with its cobblestone streets, malecón, horse-drawn carriages and rustic mansions. 
     Near the white baroque Vigan Cathedral are Plaza Salcedo, offering fountain light shows, and Plaza Burgos, known for its street-food stalls.</p>
-    <div>
-        <br>
+	<div>
 
-        <center>
-            <h4><u>Location</u></h4>
-            <img src="/FinalExam/Images/baluarte.jpeg" alt="Mount" width="400" height="300">
-        </center>
-        <br>
+<br>
 
-        <br><br>
+<center>
+<h4><u>Location</u></h4>
+<img src="/FinalExam/Images/baluarte.jpeg" alt="Mount" width="400" height="300">
+</center>
+<br>
 
-        </div>
+<br><br>
 
-        <div class="pa">
-            <a href="#top"><p><u>Back on Top</u></p></a>
+</div>
 
-        </div>
+<div class="pa">
+<a href="#top"><p><u>Back on Top</u></p></a>
+</div>
 
-        <br>
+<br>
 
-        <br>
-
-        <hr size="4" ; color="black" ; width="95%">
+<br>
+ <hr size="4" ; color="black" ; width="95%">
         <hr size="2" ; color="black" ; width="95%">
         <a href="https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines"><footer style="font-family: Oratpr Std; font-size:70%; color:black;">
-        <center>Source: https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines/</center>
-        </footer>footer></a>
-        <hr size="2" ; color="black" ; width="95%">
-        
-        <hr size="4" ; color="black" ; width="95%">
+		<center>Source: https://guidetothephilippines.ph/articles/what-to-experience/top-tourist-spots-philippines/</center>
+</footer></a>
+<hr size="2" ; color="black" ; width="95%">
+<hr size="4" ; color="black" ; width="95%">
+<center>
+<p id="bot"><p style="	font-family: Orator Std; color: black; font-size:70%;">By: SHYRLEE TYFANNY A. PEJO </p>
+ <img src="/FinalExam/Images/tyfanny.jpeg.jpg" alt="Author" width="100" height="100" align="center">
+ </center>
 
-        <center>
-            <p id="bot"><p style=" font-family: Orator Std; color: black; font-size:70%;">By: Shyrlee Tyfanny A. Pejo</p>
-            <img src="/FinalExam/Images/tyfanny.jpeg.jpg" alt="Author" width="100" height="100" align="center">
-
-        </center>
-
-        </body>
-        </html>
+</body>
+</html>
