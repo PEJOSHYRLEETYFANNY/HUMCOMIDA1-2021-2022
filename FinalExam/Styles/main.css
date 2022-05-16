@@ -8,6 +8,7 @@ body.cover {
     background-image: url(/FinalExam/Images/backgroundcover.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: auto;
 }
 
 img.thumb {
