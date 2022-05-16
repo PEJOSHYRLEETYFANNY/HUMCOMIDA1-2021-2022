@@ -164,12 +164,13 @@ p, a{
     font-family: Verdana;
     font-size: 100%;
 }
-
-p.shade {
+p.shade{
     background-color: rgba(0, 0, 0, 0.333);
     padding: 8px;
     border-radius: 10px;
-    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
