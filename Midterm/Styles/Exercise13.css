@@ -6,6 +6,11 @@ body::after {
     clear: both;
     display: table;
 }
+article.accents1 {
+    padding: 10px;
+    background-color: black;
+    color:black;
+}
 article.accents2 {
     padding: 10px;
     background-color: wheat;
@@ -21,23 +26,27 @@ article.accents4 {
     background-color: yellow;
     color: yellow;
 }
+
 [class*="col-"] {
     float: left;
     border: 1px solid black;
 }
-.col-2 {width: 16.66%;}
+
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
+.col-6 {width: 50%;}
 .col-12 {width: 100%;}
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (mid-width: 768px) {
+
+[class*="col-"] {width: 100%;}
+
+
+@media only screen and (min-width: 768px) {
     .col-s-6 {width: 50%;}
 }
-@media only screen and (mind-width: 1024px) {
-    .col-2 {width: 16.66%;}
+
+@media only screen and (min-width: 1024px) {
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
+    .col-6 {width: 50%;}
     .col-12 {width: 100%;}
 }
