@@ -5,10 +5,12 @@ body {
 }
 
 body.cover {
-    background-image: url(/FinalExam/Images/backgroundcover.png);
+    background-image: url("/FinalExam/Images/backgroundcover.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
+    background-attachment: fixed; 
+    width: 100%
+    height: 1080px
 }
 
 img.thumb {
