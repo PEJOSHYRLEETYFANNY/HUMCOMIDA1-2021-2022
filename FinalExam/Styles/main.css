@@ -1,15 +1,19 @@
+html {
+    width: 100%;
+    color: white;
+}
+
 body {
-    width: 90%;
+    width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
 
-body.cover {
-    background-image: url("/FinalExam/Images/backgroundcover.png");
+.bgc {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/backgroundcover.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    width: 100%;
+    background-attachment: fixed;
     height: 1080px;
 }
 
@@ -29,27 +33,34 @@ img.locD {
 }
 
 img.prof {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
-article {
-    background-color: rgba(0, 0, 0, 0.333);
+article, div, footer {
+    background-color: rgba(0, 0, 0, 0.80);
     padding: 8px;
     border-radius: 10px;
 }
 
 hr {
-    border: 2px solid black;
+    margin-top: -10px;
+    border: 5px dashed skyblue;
     width: 95%;
 }
 
+hr.ft {
+    margin-top: 10px;
+}
+
 hr.thin {
-    border: 1px solid black;
+    border: 2.5px dashed deepskyblue;
 }
 
 .align {
     text-align: center;
+    font-size: 30px;
+    color: deepskyblue;
 }
 
 h4 {
@@ -59,11 +70,13 @@ h4 {
 h1{ 
     font-family: Verdana;
     text-align: center;
+    font-size: 90px;
 }
 
 h2{ 
     font-family: Orator Std;
     text-align: center;
+    font-size: 70px;
 }
 
 ul {
@@ -165,13 +178,23 @@ padding: 15px 15px;
 
 p, a{
     font-family: Verdana;
-    font-size: 100%;
+    font-size: 21px;
+    padding: 28px;
 }
-p.shade{
-    background-color: rgba(0, 0, 0, 0.333);
+
+.shade{
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 8px;
     border-radius: 10px;
-    width: 40%;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shademain{
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -183,4 +206,17 @@ p {
 
 h4{
     font-family: Orator Std;
+}
+
+.top {
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+
+p.footer {
+    font-size: 18px;
 }
