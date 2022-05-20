@@ -1,0 +1,1 @@
+alert("Shyrlee Tyfanny A. Pejo\nBSIT\n2nd Year\nHUMCOM1-IAA1\nHuman-Computer Interaction 1");

@@ -1,1 +1,1 @@
-document.getElementById("disp").innerHTML="Shyrlee Tyfanny Pejo<br>BSIT<br>2nd Year<br>HUMCOM1 IAA1<br>Human-Computer Interaction 1";
+document.getElementById("disp").innerHTML="Shyrlee Tyfanny A. Pejo<br>BSIT<br>2ndYear<br>HUMCOM1-IAA1<br>Human-Computer Interaction 1";
