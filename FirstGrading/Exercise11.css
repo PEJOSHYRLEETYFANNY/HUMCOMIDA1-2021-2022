@@ -1,0 +1,102 @@
+body {
+    background-color: #4c811d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:antiquewhite;
+    margin-top: 40pt;
+    margin-bottom: 20pt;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25pt;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+mark {
+    background-color:  #1d5481;
+    color: #debc59;
+    padding: 10px;
+}
+mark.titles{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(100, 187, 237);
+}
+div {
+    border-style: solid;
+}
+a {
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(16, 5, 7);
+}
+a.footers {
+    background-color: bisque;
+    color: #a3e16e;
+}
+section {
+    border-style: solid;
+    margin: 10px;
+}
+section.logo {
+    float: left;
+    width: 25%; height: 250px;
+    background-image: url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/aesth.jpeg);
+    background-size: cover;
+}
+section.navs {
+    text-align: center;
+    width: 70%;
+    margin-left: 280px;
+    margin-top: 50px;
+    border-style: none;
+}
+section.articles {
+    clear: left;
+    padding: 10px;
+}
+article {
+    border-style:  solid;
+    margin: 10px;
+    background-size: 100%;
+    height:  425;
+    padding: 50px;
+    text-indent: 50px;
+}
+article.stranger {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/stranger.png);
+}
+article.PUBG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/pubg.jpeg)
+}
+article.nami {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/nami.jpeg)
+}
+article > h3, h4 {
+
+    color: aquamarine;
+    position: relative;
+    left: -50px;
+}
+article > h4 {
+    position: relative;
+    left: -40px;
+}
+h4 {
+    margin-top: -15px;
+}
+h3 {
+    color: aquamarine;
+}
+p {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+section.footer {
+    padding: 10px;
+}
