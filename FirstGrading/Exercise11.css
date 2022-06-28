@@ -13,7 +13,7 @@ body {
 }
 mark {
     background-color:  #1d5481;
-    color: #debc59;
+    color: #de59c3;
     padding: 10px;
 }
 mark.titles{
@@ -42,7 +42,7 @@ section {
 section.logo {
     float: left;
     width: 25%; height: 250px;
-    background-image: url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/aesth.jpeg);
+    background-image: url("/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/backg.jpeg");
     background-size: cover;
 }
 section.navs {
@@ -77,7 +77,7 @@ article.nami {
     url(/ShyrleeTyfannyPejo_HUMCOM1_IAA120212022/FinalExam/Images/nami.jpeg)
 }
 article > h3, h4 {
-
+    
     color: aquamarine;
     position: relative;
     left: -50px;
